@@ -13,7 +13,7 @@ void main()
 	char s3[100]="wc.exe -l file.txt";
 	FILE *fi1;
     fi1=fopen("D:\\C++\\WENZI\\233.txt","r");
-	printf("ÇëÊäÈëÖ¸Áî:\n");
+	printf("è¯·è¾“å…¥æŒ‡ä»¤:\n");
 	gets(command);
 	if(strcmp(command,s1)==0)
 	{
@@ -40,7 +40,7 @@ void zifu(FILE *fi1)
 		fputc(c,stdout);
 		bits++;
 	}
-	printf("\n×Ö·ûÊı£º");
+	printf("\nå­—ç¬¦æ•°ï¼š");
 	printf("%d\n",bits);
 }
 
@@ -57,7 +57,7 @@ void juzi(FILE *fi1)
 			sent++;
 		}
 	}
-	printf("\n¾ä×ÓÊı£º");
+	printf("\nå¥å­æ•°ï¼š");
 	printf("%d\n",sent);
 }
 
@@ -79,6 +79,6 @@ void danci(FILE *fi1)
 				words++;
 		}
 	}
-	printf("\nµ¥´ÊÊı£º");
+	printf("\nå•è¯æ•°ï¼š");
 	printf("%d\n",words);
 }
