@@ -1,7 +1,6 @@
 # WC
-The first task is about ‘Words Count' of Basis of Software Technique.
-##项目的简介及其相关的用法  
-###文件列表及其相关说明  
+##项目的简介及其相关的用法<br>  
+###文件列表及其相关说明<br>  
 
 项目的简介及其相关的用法<br>
 本项目通过规定的输入命令，形如wc.exe -c file.txt（wc.exe [参数] [文件名]），寻找相关.txt文本的各项数目。<br>
