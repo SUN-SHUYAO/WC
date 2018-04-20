@@ -148,7 +148,7 @@ void danci(FILE *fi1)
 		}
 	}
 	printf("\n单词数：");
-	printf("%d\n",words-sum);
+	printf("%d\n",words-sum-1);
 }
 
 void hang(FILE *fi1)
