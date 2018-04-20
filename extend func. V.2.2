@@ -21,29 +21,43 @@ void main()
     fi1=fopen("D:\\C++\\WENZI\\233.txt","r");
 	printf("请输入指令:\n");
 	gets(command);
-	if(strcmp(command,s1)==0)
+	while(1)
 	{
-		zifu(fi1);
-	}
-	if(strcmp(command,s2)==0)
-	{
-		danci(fi1);
-	}
-	if(strcmp(command,s3)==0)
-	{
-		juzi(fi1);
-	}
-	if(strcmp(command,s4)==0)
-	{
-		hang(fi1);
-	}	
-	if(strcmp(command,s5)==0)
-	{
-		zhu(fi1);
-	}
-	if(strcmp(command,s6)==0)
-	{
-		kong(fi1);
+		if(strcmp(command,s1)==0)
+		{
+			zifu(fi1);
+			break;
+		}
+		if(strcmp(command,s2)==0)
+		{
+			danci(fi1);
+			break;
+		}
+		if(strcmp(command,s3)==0)
+		{
+			juzi(fi1);
+			break;
+		}
+		if(strcmp(command,s4)==0)
+		{
+			hang(fi1);
+			break;
+		}	
+		if(strcmp(command,s5)==0)
+		{
+			zhu(fi1);
+			break;
+		}
+		if(strcmp(command,s6)==0)
+		{
+			kong(fi1);
+			break;
+		}
+		if(strcmp(command,s1) != 0 && strcmp(command,s2) != 0 && strcmp(command,s3) != 0 && strcmp(command,s4) != 0 && strcmp(command,s5) != 0 && strcmp(command,s6) != 0)
+		{
+				printf("请按照给定命令输入:\n");
+				gets(command);
+		}
 	}
 	fclose(fi1);
 }
