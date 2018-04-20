@@ -24,7 +24,7 @@
 
 ##4.各版本修正说明<br>
 
-###V2.0<br>
+  ###V2.0<br>
 1.	V1-V2为新加扩展三项功能,即"wc.exe -h file.txt"、"wc.exe -z file.txt"、"wc.exe -k file.txt"三项；<br><br>
 ###V2.1<br>
 1. 计算空行数时，解决第一行为空行的计数错误问题；<br>
